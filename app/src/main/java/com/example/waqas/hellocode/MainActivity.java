@@ -11,12 +11,15 @@ import org.w3c.dom.Text;
 
 public class MainActivity extends AppCompatActivity {
 
+
     TextView txt;
     Button btnYes;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        //This is my layout 
         setContentView(R.layout.activity_main);
 
         btnYes = (Button) findViewById(R.id.button2);
